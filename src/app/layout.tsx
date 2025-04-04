@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeScript } from "@/components/theme-script"
 
 export const metadata: Metadata = {
-  title: "siddharth ",
+  title: "Indraneel ",
   description: "engineer at the intersection of design and web development",
 }
 
