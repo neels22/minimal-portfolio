@@ -12,7 +12,7 @@ import { useState } from "react";
 
 // Icon component for consistent logo display
 const Icon = ({ src, alt }: { src: string; alt: string }) => (
-  <div className="flex items-center justify-center w-10 h-10 bg-neutral-2 dark:bg-neutral-dark-2 rounded-lg overflow-hidden">
+  <div className="flex border border-2 items-center justify-center w-10 h-10 bg-neutral-2 dark:bg-neutral-dark-2 rounded-lg overflow-hidden">
     <Image
       src={src}
       alt={alt}
@@ -59,19 +59,19 @@ export default function Home() {
           <div className="flex gap-3 mt-3">
             <Link
               href="#engineering"
-              className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
+              className="lowercase border text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
             >
               software engineering
             </Link>
             <Link
               href="#ai"
-              className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
+              className="lowercase border text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
             >
               gen-ai
             </Link>
             <Link
               href="#design"
-              className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
+              className="lowercase border text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
             >
               life
             </Link>
@@ -114,7 +114,7 @@ export default function Home() {
                   type="button"
                   onClick={() => setShowCoditasDetails(!showCoditasDetails)}
                   // Kept original styles + added active state for subtle feedback
-                  className="mt-2 min-w-24 lowercase text-neutral-7 dark:text-neutral-dark-7 border rounded p-1 text-sm hover:text-neutral-8 dark:hover:text-neutral-dark-8 focus:outline-none focus-visible:underline active:text-neutral-8 dark:active:text-neutral-dark-8"
+                  className="mt-2 min-w-24 lowercase text-neutral-7 dark:text-neutral-dark-7 border border-2 rounded p-1 text-sm hover:text-neutral-8 dark:hover:text-neutral-dark-8 focus:outline-none focus-visible:underline active:text-neutral-8 dark:active:text-neutral-dark-8"
                   // Accessibility: Links button to the content it controls via ID
                   // <-- Connects to the div below
                   // Accessibility: Indicates whether the controlled content is expanded or collapsed
@@ -396,7 +396,7 @@ export default function Home() {
               <li>
                 <Link
                   href="https://x.com/notcodesid"
-                  className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
+                  className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   Twitter / x
                 </Link>
@@ -404,7 +404,7 @@ export default function Home() {
               <li>
                 <Link
                   href="https://github.com/notcodesid"
-                  className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
+                  className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   GitHub
                 </Link>
@@ -413,7 +413,7 @@ export default function Home() {
               <li>
                 <Link
                   href="https://www.linkedin.com/in/sidharthh-pandro"
-                  className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
+                  className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   LinkedIn
                 </Link>
@@ -423,7 +423,7 @@ export default function Home() {
               <li>
                 <a
                   href="mailto:notcodesid@gmail.com?subject=Hey%20Sidharth"
-                  className="lowercase text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
+                  className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   say hello
                 </a>

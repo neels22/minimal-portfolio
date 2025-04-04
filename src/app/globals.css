@@ -69,7 +69,9 @@
   }
 
   body {
-    @apply bg-white text-neutral-7 selection:bg-neutral-3 selection:text-neutral-8 dark:bg-black dark:text-neutral-dark-7 dark:selection:bg-neutral-dark-3 dark:selection:text-neutral-dark-8;
+
+    @apply bg-indigo-50 text-neutral-7 selection:bg-neutral-2 selection:text-neutral-8 dark:bg-black dark:text-neutral-dark-7 dark:selection:bg-neutral-dark-3 dark:selection:text-neutral-dark-8;
+
     font-family: 'Innovator Grotesk', sans-serif;
   }
 }
