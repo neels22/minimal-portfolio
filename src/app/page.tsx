@@ -59,19 +59,19 @@ export default function Home() {
           <div className="flex gap-3 mt-3">
             <Link
               href="#engineering"
-              className="lowercase border text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
+              className="lowercase  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
             >
               software engineering
             </Link>
             <Link
               href="#ai"
-              className="lowercase border text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
+              className="lowercase  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
             >
               gen-ai
             </Link>
             <Link
               href="#design"
-              className="lowercase border text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
+              className="lowercase  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-1 rounded-md"
             >
               life
             </Link>
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
                 <Icon
-                  src="https://ext.same-assets.com/1107240702/3005105550.svg"
+                  src="https://img.icons8.com/?size=100&id=55831&format=png&color=228BE6"
                   alt="Inploi logo"
                 />
               </div>
@@ -137,28 +137,31 @@ export default function Home() {
                   }`}
                 >
                   <div className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
-                    <span className="text-4xl font-bold text-white">.</span>
+
                     Leveraged the Langchain framework to build
                     Retrieval-Augmented Generation (RAG) applications, enabling
                     natural language querying on diverse data sources such as
                     PDFs, YouTube videos, and web-scraped content.
                     <br />
-                    <span className="text-4xl font-bold text-white">.</span>
+                    <br/>
+
                     Acquired in-depth knowledge of generative AI, including
                     large language models (LLMs), vector databases, embeddings,
                     context length considerations, and various prompting
                     techniques. <br />
-                    <span className="text-4xl font-bold text-white">.</span>
+                    <br/>
+
                     Designed a RAG system that interfaces with SQL databases,
                     allowing users to query database contents in natural
                     language and receive relevant responses.
                     <br />
-                    <span className="text-4xl font-bold text-white">.</span>
+                    <br/>
                     Implemented a Streamlit-based interface to dynamically
                     visualize query results through generated graphs,
                     facilitating easier data interpretation and insights.
                     <br />
-                    <span className="text-4xl font-bold text-white">.</span>
+                    <br/>
+
                     Acquired expertise in Python, Django, HTML, CSS, JavaScript,
                     and SQL through intensive training sessions and applied
                     these skills to internship projects.
@@ -185,7 +188,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
                 <Icon
-                  src="https://ext.same-assets.com/1107240702/366769914.svg"
+                  src="https://img.icons8.com/?size=100&id=50200&format=png&color=000000"
                   alt="Inploi SDK logo"
                 />
               </div>
@@ -196,25 +199,50 @@ export default function Home() {
                       href="https://github.com/notcodesid/Accountability-App"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
-                      accountability app
+                      notebot
                       <span className="not-sr-only"> ↗</span>
                     </Link>
                   </h3>
                 </header>
                 <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
-                  A App (Blockchain) that will enable users to commit to
-                  personal goals, stake money on their success, and compete with
-                  others to stay accountable.
+                 a simple note taking application with the power of ai. get insights on your notes, generate quizzes, summarize notes, and other such things with the help of ai.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
+              <div className="w-full max-w-32 flex sm:justify-end">
+                <Icon
+                  src="https://img.icons8.com/?size=100&id=Bao85O4hGewf&format=png&color=000000"
+                  alt="Inploi SDK logo"
+                />
+              </div>
+              <div>
+                <header className="lowercase text-sm">
+                  <h3 className="text-neutral-8 dark:text-neutral-dark-8">
+                    <Link
+                      href="https://github.com/notcodesid/Accountability-App"
+                      className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
+                    >
+                      Opentable
+                      <span className="not-sr-only"> ↗</span>
+                    </Link>
+                  </h3>
+                </header>
+                <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
+                 book/reserve a table at your favourite restuarant.
                 </p>
               </div>
             </div>
           </li>
 
+
           <li>
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
                 <Icon
-                  src="https://ext.same-assets.com/1107240702/1618200265.svg"
+                  src="https://img.icons8.com/?size=100&id=KZzUwSsnFykF&format=png&color=000000"
                   alt="Inploi SDK logo"
                 />
               </div>
@@ -225,15 +253,13 @@ export default function Home() {
                       href="https://instantinterior.vercel.app/"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
-                      instant interior
+                       inventory management application
                       <span className="not-sr-only"> ↗</span>
                     </Link>
                   </h3>
                 </header>
                 <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
-                  This application provides AI-powered interior design services,
-                  allowing users to transform their spaces with various design
-                  options.
+                  made this project for my dad's shop, it solved the problem of buying a third party software. why buy from outside? when you can make it at home. so i am making this project for my dad.
                 </p>
               </div>
             </div>
@@ -242,7 +268,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
                 <Icon
-                  src="https://ext.same-assets.com/1107240702/4164160248.svg"
+                  src="https://img.icons8.com/?size=100&id=58347&format=png&color=228BE6"
                   alt="Winden UI logo"
                 />
               </div>
@@ -253,15 +279,13 @@ export default function Home() {
                       href="https://travelhomes-frontend.vercel.app/"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
-                      travels homes
+                      Eventure
                       <span className="not-sr-only"> ↗</span>
                     </Link>
                   </h3>
                 </header>
                 <p className="text-neutral-6 dark:text-neutral-dark-6 lowercase text-pretty text-sm">
-                  a travel project that helps people plan and enjoy road trips
-                  in camper vans, rvs, and motorhomes, giving them the freedom
-                  to explore at their own pace.
+                 attend events from your surroundings, ability to host your own event, includes features such as email notifications, qr code generators etc.
                 </p>
               </div>
             </div>
@@ -304,7 +328,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
               <div className="w-full max-w-32 flex sm:justify-end">
                 <Icon
-                  src="https://ext.same-assets.com/1107240702/366769914.svg"
+                  src="https://img.icons8.com/?size=100&id=SAtHBbatd6ZC&format=png&color=000000"
                   alt="Drizzle Toolbelt logo"
                 />
               </div>
@@ -395,7 +419,7 @@ export default function Home() {
             <ol className="flex gap-2 -mx-1.5">
               <li>
                 <Link
-                  href="https://x.com/notcodesid"
+                  href="https://x.com/SaneWolf91"
                   className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   Twitter / x
@@ -403,7 +427,7 @@ export default function Home() {
               </li>
               <li>
                 <Link
-                  href="https://github.com/notcodesid"
+                  href="https://github.com/neels22"
                   className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   GitHub
@@ -412,7 +436,7 @@ export default function Home() {
               {/* LinkedIn */}
               <li>
                 <Link
-                  href="https://www.linkedin.com/in/sidharthh-pandro"
+                  href="https://www.linkedin.com/in/indraneel-sarode-587178206/"
                   className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   LinkedIn
@@ -422,7 +446,7 @@ export default function Home() {
               {/* Email */}
               <li>
                 <a
-                  href="mailto:notcodesid@gmail.com?subject=Hey%20Sidharth"
+                  href="mailto:indraneelsarode@gmail.com?subject=Hey%20Indraneel"
                   className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
                   say hello
