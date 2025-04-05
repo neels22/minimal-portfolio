@@ -178,7 +178,7 @@ export default function Home() {
       <section className="flex flex-col gap-4">
         <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
           <div>
-            <h2 className="font-semibold text-xl sm:text-sm tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
+            <h2 className="font-semibold text-xl sm:text-lg tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
               ongoing projects
             </h2>
           </div>
@@ -196,7 +196,7 @@ export default function Home() {
                 <header className="lowercase text-sm">
                   <h3 className="text-neutral-8 dark:text-neutral-dark-8">
                     <Link
-                      href="https://github.com/notcodesid/Accountability-App"
+                      href="https://github.com/neels22/NoteBot"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
                       notebot
@@ -222,7 +222,7 @@ export default function Home() {
                 <header className="lowercase text-sm">
                   <h3 className="text-neutral-8 dark:text-neutral-dark-8">
                     <Link
-                      href="https://github.com/notcodesid/Accountability-App"
+                      href="https://github.com/gopinathsjsu/team-project-20202-mavericks"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
                       Opentable
@@ -250,7 +250,7 @@ export default function Home() {
                 <header className="lowercase text-sm">
                   <h3 className="text-neutral-8 dark:text-neutral-dark-8">
                     <Link
-                      href="https://instantinterior.vercel.app/"
+                      href="https://github.com/neels22/Inventory-management"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
                        inventory management application
@@ -276,7 +276,7 @@ export default function Home() {
                 <header className="lowercase text-sm">
                   <h3 className="text-neutral-8 dark:text-neutral-dark-8">
                     <Link
-                      href="https://travelhomes-frontend.vercel.app/"
+                      href="https://github.com/vatsalgandhi83/Eventure"
                       className="hover:bg-neutral-2 active:bg-neutral-3 dark:hover:bg-neutral-dark-2 dark:active:bg-neutral-dark-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-2 -mx-2 py-1 -my-1 rounded-lg"
                     >
                       Eventure
@@ -297,7 +297,7 @@ export default function Home() {
       <section className="flex flex-col gap-4">
         <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
           <div>
-            <h2 className="font-semibold text-xl sm:text-sm tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
+            <h2 className="font-semibold text-xl sm:text-lg tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
               projects
             </h2>
           </div>
@@ -409,7 +409,7 @@ export default function Home() {
       <section className="flex flex-col gap-4">
         <div className="flex flex-col sm:flex-row gap-2 md:gap-4">
           <div>
-            <h2 className="font-semibold text-xl sm:text-sm tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
+            <h2 className="font-semibold text-3xl sm:text-2xl tracking-tight lowercase text-neutral-8 dark:text-neutral-dark-8">
               Contact
             </h2>
           </div>
@@ -449,7 +449,7 @@ export default function Home() {
                   href="mailto:indraneelsarode@gmail.com?subject=Hey%20Indraneel"
                   className="lowercase border  text-neutral-8 dark:text-neutral-dark-8 text-sm bg-neutral-2 hover:bg-neutral-3 dark:bg-neutral-dark-2 dark:hover:bg-neutral-dark-3 active:bg-neutral-4 dark:active:bg-neutral-dark-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-7 dark:focus-visible:ring-neutral-dark-7 px-3 py-2 rounded-full"
                 >
-                  say hello
+                  Email
                 </a>
               </li>
             </ol>
